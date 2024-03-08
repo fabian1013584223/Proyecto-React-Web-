@@ -136,6 +136,7 @@ console.log(idDetalle)
         });
     };
 
+      
     const ActualizarSolicitud = async (metodo, parametros) => {
     await axios({ method: metodo, url: URL, data: parametros })
         .then(function (respuesta) {

@@ -36,6 +36,7 @@ import IndexFacturas from './componentes/IndexFacturas';
 import ShowPrecios from './componentes/ShowPrecios';
 import ShowDetalleFacturaCliente from './componentes/ShowDetalleFacturaCliente';
 import ShowDetalleFacturaProveedor from './componentes/ShowDetalleFacturaProveedor';
+import ShowMetodoPago from './componentes/ShowMetodoPago';
 
 function App() {
   return(
@@ -78,6 +79,7 @@ function App() {
         <Route path='/Precios' exact element={<ShowPrecios/>}></Route>
         <Route path='/DetalleFacturaCliente' exact element={<ShowDetalleFacturaCliente/>}></Route>
         <Route path='/DetalleFacturaProveedor' exact element={<ShowDetalleFacturaProveedor/>}></Route>
+        <Route path='/MetodoPago' exact element={<ShowMetodoPago/>}></Route>
       </Routes>
     </BrowserRouter>
   );

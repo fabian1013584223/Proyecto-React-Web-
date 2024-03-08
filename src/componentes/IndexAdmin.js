@@ -88,7 +88,6 @@ const Nosotros = () => {
                     <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./Derechos" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Derechos</a></li>
                     <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./Nosotros" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Nosotros</a></li>
                     <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./TablaProductos" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Productos</a></li>
-                    <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./Administracion" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Administracion</a></li>
                     <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./Registro" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Registrarse</a></li>
                     <li className="nav-item" data-bss-hover-animate="flash" style={{ color: 'var(--bs-black)', fontWeight: 'normal' }}><a className="nav-link" data-bss-hover-animate="flash" href="./Iniciosesion" style={{ color: 'var(--bs-black)', fontWeight: 'normal', fontFamily: 'ABeeZee, sans-serif' , fontSize: '16px'}}>Iniciar sesion</a></li>
               </ul>
@@ -113,9 +112,11 @@ const Nosotros = () => {
                         <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./productos">Productos</a>
                         <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./Proveedor">Proveedores</a>
                         <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./Stock">Stock</a>
-                        <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./IndexFacturas">Facturas</a></div>
+                        <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./IndexFacturas">Facturas</a>
+                        <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./MetodoPago">Metodos de Pago</a>
+                        <a className="btn btn-primary" role="button" style={{textAlign: 'center',marginLeft: '90px',width: '150px',marginBottom: '33px',paddingBottom: '10px',borderColor: 'var(--bs-cyan)'}} href="./Categorias">Categorias</a></div>
                     </div>
-                </div>
+                    </div>
             </section>
         </div>
     <footer>
